@@ -35,6 +35,7 @@ You can use following steps to test your own algorithm:
 - Load the worldfile, which is already marked.
 
 - Choose the controller of the robot called the Flapper as SimpleFlapGamma_SensorFusion, which is also provided here. This is the controller file, you can rewrite the corresponding classes which are given in other files.
+  Note that the controller python function name should be the same as the container folder. 
 
 - If everything is fine, using the following world file:
 https://github.com/Chainplain/FlappingwingSimu/blob/version2.0/SimpleFlapFirstMaster_Test_Position_Trajecory_Tracking%20.wbt 
